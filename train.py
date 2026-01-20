@@ -37,6 +37,24 @@ def parse_args():
     parser.add_argument('--load_pretrain', type=bool, default=False)
     parser.add_argument('--model_path', type=str, default='./log/SimSSR_4xSR_epoch_81.pth.tar')
     return parser.parse_args()
+
+def get_timestamp():
+    return datetime.now().strftime('%y%m%d-%H%M%S')
+
+def setup_logger(logger_name, root, phase, level=logging.INFO, screen=False, tofile=False):
+    '''set up logger'''
+    # 获取logger实例
+    lg = logging.getLogger(logger_name)
+    lg.propagate = False  # 防止传递给父logger
+    lg.setLevel(level)
+
+    # 清除现有的handler
+    for handler in lg.handlers[:]:
+        lg.removeHandler(handler)
+
+    formatter = logging.Formatter('%(asctime)s.%(msecs)03d - %(levelname)s: %(message)s',
+                                  datefmt='%y-%m-%d %H:%M:%S')
+
     if tofile:
         log_file = os.path.join(root, phase + 'train_{}.log'.format(get_timestamp()))
         fh = logging.FileHandler(log_file, mode='w')
@@ -131,7 +149,9 @@ def train(cfg, train_loader, test_Names, test_loaders):
                 writer.add_scalar('test_psnr/' + test_name, psnr_epoch_test, idx_epoch)
                 writer.add_scalar('test_ssim/' + test_name, ssim_epoch_test, idx_epoch)
                 logger.info(' Valid----%15s, PSNR---%f, SSIM---%f' % (test_name, psnr_epoch_test, ssim_epoch_test))
-                print(time.ctime()[4:-5] + ' Valid----%15s, PSNR---%f, SSIM---%f' % (test_name, psnr_epoch_test, ssim_epoch_test))
+                # print(time.ctime()[4:-5] + ' Valid----%15s, PSNR---%f, SSIM---%f' % (
+                # test_name, psnr_epoch_test, ssim_epoch_test))
+                # print(time.ctime()[4:-5] + ' Valid----%15s, PSNR---%f, SSIM---%f' % (test_name, psnr_epoch_test, ssim_epoch_test))
                 pass
             Average_PSNR, Average_SSIM = sum(psnr_testset) / len(psnr_testset), sum(ssim_testset) / len(
                 ssim_testset)
