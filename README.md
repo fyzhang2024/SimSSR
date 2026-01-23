@@ -22,7 +22,7 @@ This is the PyTorch implementation of the spatial SR method in our paper "Revisi
 
 ![](./Figs/the_ternary_parameter_space.png)
 
-<img src="./Figs/DW_Tradeoff_IsoParams.png" style="zoom: 25%;" />
+<img src="./Figs/DW_Tradeoff_IsoParams.png" style="zoom: 15%;" />
 
 The detailed experimental data can be downloaded via this link
 
