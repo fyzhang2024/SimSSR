@@ -35,12 +35,16 @@ The detailed experimental data can be downloaded via this link
 If you find this work helpful, please consider citing:
 
 ```
-@InProceedings{zhang_2025,
-    author    = {Zhang, Fengyuan and Wang, Yingqian and Wang, Xueying and Liang, Zhengyu and Wang, Longguang and Tian, Lvli and Yang, Jungang},
-    title     = {Revisiting Subspace Disentangling for Light Field Spatial Super-Resolution: A Simple Baseline and An Empirical Study},
-    booktitle = {},
-    year      = {2025},
-}
+@ARTICLE{11372740,
+  author={Zhang, Fengyuan and Wang, Yingqian and Wang, Xueying and Liang, Zhengyu and Wang, Longguang and Tian, Lvli and Yang, Jungang},
+  journal={IEEE Transactions on Circuits and Systems for Video Technology}, 
+  title={Revisiting Subspace Disentangling for Light Field Spatial Super-Resolution}, 
+  year={2026},
+  volume={},
+  number={},
+  pages={1-1},
+  keywords={Light field;image super-resolution;subspace disentangling},
+  doi={10.1109/TCSVT.2026.3661516}}
 ```
 
 ## Related Projects
