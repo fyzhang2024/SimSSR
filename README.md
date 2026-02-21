@@ -24,7 +24,7 @@ This is the PyTorch implementation of the spatial SR method in our paper "Revisi
 
 <img src="./Figs/DW_Tradeoff_IsoParams.png" style="zoom: 15%;" />
 
-The detailed experimental data can be downloaded via this link
+The detailed experimental data can be downloaded via [this link](https://pan.baidu.com/s/10YmiYDr5Xcw7e1gvMY1mhA) (key:nudt) 
 
 ## Visual Comparison
 
