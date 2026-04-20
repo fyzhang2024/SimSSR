@@ -49,17 +49,17 @@ git clone https://github.com/fyzhang2024/SimSSR.git
 
 ## Quantitative Results
 
-![results](C:\Users\QQHRZFY\Downloads\Figs\results.png)
+![results](./Figs/results.png)
 
-![](C:\Users\QQHRZFY\Downloads\Figs\the_ternary_parameter_space.png)
+![](./Figs/the_ternary_parameter_space.png)
 
-<img src="C:\Users\QQHRZFY\Downloads\Figs\DW_Tradeoff_IsoParams.png" style="zoom: 15%;" />
+<img src="./Figs/DW_Tradeoff_IsoParams.png" style="zoom: 15%;" />
 
 The detailed experimental data can be downloaded via [this link](https://pan.baidu.com/s/10YmiYDr5Xcw7e1gvMY1mhA) (key:nudt) 
 
 ## Visual Comparison
 
-![](C:\Users\QQHRZFY\Downloads\Figs\Visual_SSR.png)
+![](./Figs/Visual_SSR.png)
 
 ## Citiation
 
