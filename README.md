@@ -1,4 +1,5 @@
-# Revisiting Subspace Disentangling for Light Field Spatial Super-Resolution: A Simple Baseline and An Empirical Study
+# Revisiting Subspace Disentangling for Light Field Spatial Super-Resolution: A Simple Baseline and An Empirical Study [Paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11372740).
+
 
 ![](./Figs/SimSSR_overview.png)
 
