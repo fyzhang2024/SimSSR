@@ -1,5 +1,5 @@
 # The offical code of Revisiting Subspace Disentangling for Light Field Spatial Super-Resolution
-[Paper](https://ieeexplore.ieee.org/document/11372740) [PDF](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11372740)
+[[Paper]](https://ieeexplore.ieee.org/document/11372740)   [[PDF]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11372740)
 
 
 ![](./Figs/SimSSR_overview.png)
