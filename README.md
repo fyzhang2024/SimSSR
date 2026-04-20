@@ -9,7 +9,8 @@ PyTorch codes for "[Revisiting Subspace Disentangling for Light Field Spatial Su
 
 ### :tada::tada: News :tada::tada:
 
-- The pre-trained SimSSR (×2, ×4) was released for a quick test on *Light FIeld* images! [[Download Pre-trained Model](https://pan.baidu.com/s/10YmiYDr5Xcw7e1gvMY1mhA)]](key:nudt)
+- 2026-02-06: Our paper is accepted by IEEE TCSVT.
+- 2026-02-20：The pre-trained SimSSR (×2, ×4) was released for a quick test on *Light FIeld* images! [[Download Pre-trained Model](https://pan.baidu.com/s/10YmiYDr5Xcw7e1gvMY1mhA)]](key:nudt)
 
 ## Abstract
 
