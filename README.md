@@ -4,7 +4,7 @@
 
 PyTorch codes for "[Revisiting Subspace Disentangling for Light Field Spatial Super-Resolution](https://ieeexplore.ieee.org/document/11372740)", **IEEE Transactions on Circuits and Systems for Video Technology (TCSVT)**, 2026.
 
-- Authors: [Zhang Fengyuan ](zhangfengyuan24a@nudt.edu.cn), [Wang Yingqian*](https://yingqianwang.github.io/), [Wang Xueying](https://ieeexplore.ieee.org/author/37077731000), [Liang Zhengyu](https://github.com/ZhengyuLeung), [Wang Longguang](https://longguangwang.github.io/),  Tian Lvli, and Yang Jungang. <br>
+- Authors: [Zhang Fengyuan ](https://github.com/fyzhang2024), [Wang Yingqian*](https://yingqianwang.github.io/), [Wang Xueying](https://ieeexplore.ieee.org/author/37077731000), [Liang Zhengyu](https://github.com/ZhengyuLeung), [Wang Longguang](https://longguangwang.github.io/),  Tian Lvli, and Yang Jungang. <br>
 - National University of Defense Technology and Aviation University of Air Force
 
 ### :tada::tada: News :tada::tada:
