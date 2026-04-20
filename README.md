@@ -1,5 +1,20 @@
-# The offical code of Revisiting Subspace Disentangling for Light Field Spatial Super-Resolution
-[[Paper]](https://ieeexplore.ieee.org/document/11372740)   [[PDF]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11372740)
+# SimSSR (IEEE TCSVT 2026)
+
+### 📖[**Paper**](https://ieeexplore.ieee.org/document/11372740) | 🖼️[**PDF**](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11372740)
+
+PyTorch codes for "[Revisiting Subspace Disentangling for Light Field Spatial Super-Resolution](https://ieeexplore.ieee.org/document/11372740)", **IEEE Transactions on Circuits and Systems for Video Technology (TCSVT)**, 2026.
+
+- Authors: [Fengyuan Zhang](zhangfengyuan24a@nudt.edu.cn), [Yingqian Wang*](https://yingqianwang.github.io/), [Xueying Wang](https://ieeexplore.ieee.org/author/37077731000), [Zhengyu Liang](https://github.com/ZhengyuLeung), [Longguang Wang](https://longguangwang.github.io/),  [Lvli Tian](), and [Jungang Yang]<br>
+- National University of Defense Technology and Aviation University of Air Force
+
+### :tada::tada: News :tada::tada:
+
+- The pre-trained SimSSR (×4) was released for a quick test on *Light Field* images! [[Download Pre-trained Model](https://pan.baidu.com/s/10YmiYDr5Xcw7e1gvMY1mhA)](key:nudt)
+
+Abstract:
+Light field (LF) spatial super-resolution (SR) aims at reconstructing high-resolution LF images from low-resolution observations. Recently, subspace disentangling has been widely adopted in numerous methods. By decomposing high-dimensional LFdata into spatial, angular and epipolar subspaces, the learning difficulties of deep networks can be significantly reduced. Although achieving continuously improved SR performance, several fundamental issues (e.g., the relative importance of each subspace) remain underexplored, leading to redundant network parameters and high model complexity. In this paper, we revisit this
+classical mechanism and conduct an empirical study to investigate these issues. Specifically, we first develop a simple, modular, and scalable LF spatial SR network, based on subspace disentangling. We then conduct extensive experiments to quantitatively evaluate the contributions of each subspace branch, the model scaling property, and the depth-width trade-off. Through comprehensive analyses, the inherent patterns are identified, based on which we derive optimal network designs under varying parameter budgets. Without bells and whistles, our method achieves state-of-the art performance with reduced model size. Code and pretrained
+models are available at https://github.com/fyzhang2024/SimSSR/.
 
 
 ![](./Figs/SimSSR_overview.png)
