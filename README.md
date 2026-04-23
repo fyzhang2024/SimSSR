@@ -55,7 +55,7 @@ git clone https://github.com/fyzhang2024/SimSSR.git
 ![](./Figs/the_ternary_parameter_space.png)
 
 <div align="center">
-    <img src="./Figs/DW_Tradeoff_IsoParams.png" width="50%">
+    <img src="./Figs/DW_Tradeoff_IsoParams.png" width="60%">
 </div>
 
 The detailed experimental data can be downloaded via [this link](https://pan.baidu.com/s/10YmiYDr5Xcw7e1gvMY1mhA) (key:nudt) 
